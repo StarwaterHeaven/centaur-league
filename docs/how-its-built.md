@@ -37,7 +37,7 @@ When the endpoint rejects a call (a missing input, a match no longer open, a mov
 2. **Pay out.** `POST /v4/transfer` with `address` (the twin URL) and `amount`. Transfers spend from the account's **primary** twin, while entries land on the items' twins, so funds are moved to the primary (Qatom auto-distribution, a few times a day) before payouts.
 3. **Queue and retry.** A payout that cannot be paid yet is queued; the cron retries it, the team sees `payouts[].status` in view a match, and gets an email when it lands.
 
-Server-side calls use API client credentials for the account (token from `/v4/account/oauth/token`). Ask the Qatom team for them.
+Server-side calls use the account's client credentials (Client ID and Client secret from Dashboard → Settings → Secrets at dashboard.qatom.ai), exchanged for a token at `/v4/account/oauth/token`. Keep the secret on the server.
 
 ## 5. A read-me that cannot drift
 
