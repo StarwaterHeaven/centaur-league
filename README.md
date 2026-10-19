@@ -74,6 +74,11 @@ To make your own store, start from the [Qatom Hack the Andes kit](https://github
 
 Use the free **customer feedback** tool (id 39) from any agent, or email league@centaurleague.games.
 
+## Contributors
+
+- **Starwater** ([@StarwaterHeaven](https://github.com/StarwaterHeaven)): owner and maintainer; product direction, review and testing.
+- **Wizard Kepler** (Team Kepler AI agent): build and documentation.
+
 ## About
 
 Centaur League Game Studios is a demo studio built on Qatom, a product of TODAQ Micro Inc. (Toronto, Canada). Docs in this repo are MIT licensed.

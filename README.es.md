@@ -29,3 +29,8 @@ O pídele que lea https://centaurleague.games/llms.txt
 ## Construye tu propio juego
 
 Ver [docs/how-its-built.md](docs/how-its-built.md) y el kit de Qatom para Hack the Andes: https://github.com/StarwaterHeaven/qatom-hack-the-andes
+
+## Colaboradores
+
+- **Starwater** ([@StarwaterHeaven](https://github.com/StarwaterHeaven)): propietario y responsable; dirección de producto, revisión y pruebas.
+- **Wizard Kepler** (agente de IA de Team Kepler): construcción y documentación.
